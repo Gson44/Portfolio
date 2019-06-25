@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.Head {
+    text-align: center;
+    background:black;
+    color:white;
+    padding:20px;
+    
+}
+img{
+    border-radius: 200px;
+    height:250px;
+}
+.introduction{
+    margin:auto;
+    padding:10px;
+    width:50%;
+}
+
+.Head > h2{
+    font-size: 40px;
+}
+main{
+    background:white;;
+    color:black;
+}
+.Experience{
+    
+    height:330px;
+    text-align: center;
+    
+    background:grey;
+
+}
+.Experience > h2{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    
+}
+.Experience > ul{
+    padding:80px;
+   
+}
+
+li{
+    list-style: none;
+}
+
+.education{
+   
+    height:320px;
+    text-align: center;
+    color:rgb(75, 75, 75);
+    background: white;
+
+}
+.education > h2{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    
+}
+.education > ul{
+    padding:80px;
+   
+
+}
+.Skill{
+   
+    height:600px;
+    text-align: center;
+    
+    background:grey;
+
+}
+.Skill > h2{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    
+}
+.Skill > ul{
+    padding:80px;
+   
+
+}
+
+.Skill{
+   
+    height:500px;
+    text-align: center;
+    color:white;
+    background:black;
+
+}
+.Skill > h2{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    
+}
+.Skill > ul{
+    padding:80px;
+   
+
+}
+.Reference{
+   
+    height:300px;
+    text-align: center;
+    color: black;
+    background:grey;
+
+}
+.Reference > h2{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    
+}
+.Reference > ul{
+    padding:80px;
+   
+
+}
+
+li{
+    list-style: none;
+}
+@media only screen and (max-width: 600px) {
+    
+  }
