@@ -52,18 +52,23 @@ main{
 }
 .content{
     position: relative;
-    top:100px;
+    top: 25px;;
     display:flex;
     justify-content: center;
 }
 
 .content div{
     padding:80px;
+    
 }
 
 .content p{
     padding:10px;
     font-size: 20px;
+}
+.education > .content{
+    position: relative;
+    left:20px;
 }
 img{
     height:150px;
@@ -76,6 +81,7 @@ img{
     text-align: center;
     color:rgb(75, 75, 75);
     background: white;
+    margin:auto;
 
 }
 .education > h2{
@@ -84,10 +90,9 @@ img{
     font-size: 40px;
     
 }
-.education > ul{
-    padding:80px;
-   
-
+.education> #content{
+    position: relative;
+    right:200px;
 }
 .Skill{
    
@@ -152,5 +157,5 @@ li{
     list-style: none;
 }
 @media only screen and (max-width: 600px) {
-    
+   
   }
