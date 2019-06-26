@@ -10,6 +10,7 @@
     background:black;
     color:white;
     padding:20px;
+    height:700px;
     
 }
 img{
@@ -20,41 +21,58 @@ img{
     margin:auto;
     padding:10px;
     width:50%;
+    position: relative;
+    top:60px;
 }
-
+#introPara{
+    font-size:20px;
+    letter-spacing: 1px;
+}
 .Head > h2{
     font-size: 40px;
 }
+
 main{
     background:white;;
     color:black;
 }
 .Experience{
-    
-    height:330px;
+    height:550px;
     text-align: center;
-    
     background:grey;
 
 }
+
+
 .Experience > h2{
     position: relative;
     top:30px;
     font-size: 40px;
     
 }
-.Experience > ul{
-    padding:80px;
-   
+.content{
+    position: relative;
+    top:100px;
+    display:flex;
+    justify-content: center;
 }
 
-li{
-    list-style: none;
+.content div{
+    padding:80px;
+}
+
+.content p{
+    padding:10px;
+    font-size: 20px;
+}
+img{
+    height:150px;
+    
 }
 
 .education{
    
-    height:320px;
+    height:550px;
     text-align: center;
     color:rgb(75, 75, 75);
     background: white;
