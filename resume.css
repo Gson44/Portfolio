@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+<<<<<<< HEAD
   
   body{
       width:1050px;;
   }
+=======
+
+>>>>>>> c6cfa9ac085eb0e45ca9df68de378aa6f455a23d
 
 .Head {
     text-align: center;
@@ -44,13 +48,20 @@ img{
 main{
     background:white;;
     color:black;
+<<<<<<< HEAD
     width:100%;
+=======
+>>>>>>> c6cfa9ac085eb0e45ca9df68de378aa6f455a23d
 }
 .Experience{
     height:550px;
     text-align: center;
     background:grey;
+<<<<<<< HEAD
     margin:0;
+=======
+
+>>>>>>> c6cfa9ac085eb0e45ca9df68de378aa6f455a23d
 }
 
 
@@ -166,8 +177,13 @@ img{
 li{
     list-style: none;
 }
+<<<<<<< HEAD
 @media (max-width: 600px) {
    main{
        color: blue;
    }
+=======
+@media only screen and (max-width: 500px) {
+   
+>>>>>>> c6cfa9ac085eb0e45ca9df68de378aa6f455a23d
   }
