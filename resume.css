@@ -68,6 +68,8 @@ main{
     top: 25px;;
     display:flex;
     justify-content: center;
+    width:900px;
+    margin:auto;
 }
 
 .content div{
