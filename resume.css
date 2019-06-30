@@ -11,7 +11,12 @@ h2{
     font-family: 'Catamaran', sans-serif;
 }
 p{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style: none;
 }
 .Head {
     text-align: center;
@@ -177,9 +182,7 @@ img{
 
 }
 
-li{
-    list-style: none;
-}
+
 <<<<<<< HEAD
 @media (max-width: 600px) {
    main{
