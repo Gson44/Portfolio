@@ -3,216 +3,197 @@
     padding: 0;
     box-sizing: border-box;
   }
-h1{
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-h2{
-    
-    font-family: 'Catamaran', sans-serif;
-}
-p{
+  
+  body {
     font-family: 'Roboto', sans-serif;
-}
-li{
+    background-color: #f7f7f7;
+  }
+  
+  h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Catamaran', sans-serif;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     list-style: none;
-}
-.Head {
-    text-align: center;
-    background:black;
-    color:white;
-    padding:20px;
-    height:700px;
-    
-}
-.Head > img{
-    height:200px;
-}
-
-
-
-img{
-    border-radius: 200px;
-    height:250px;
-}
-.introduction{
-    margin:auto;
-    padding:10px;
-    width:50%;
-    position: relative;
-    top:60px;
-}
-#introPara{
-    font-size:20px;
-    letter-spacing: 1px;
-}
-.Head > h2{
-    font-size: 40px;
-}
-
-.Projects{
-   
-    height:500px;
-    text-align: center;
-    color:black;
-    background: grey;
-    margin:auto;
-
-}
-.Projects > img{
-    border-radius: 0px;
-}
-.links{
-    color:white;
-    border: 1px solid black;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color:rgb(114, 14, 14);
-    font-size:22px;
-    padding:5px;
-   ;
-}
-.Projects > h2{
-    position: relative;
-    top:30px;
-    font-size: 40px;
-    
-}
-.Projects> #content{
-    position: relative;
-    right:200px;
-}
-main{
-    background:white;;
-    color:black;
-    width:100%;
-}
-.Experience{
-    height:550px;
-    text-align: center;
-    background-color: grey;
-    margin:0;
-    color:black;
-
-
-}
-
-
-.Experience > h2{
-    position: relative;
-    top:30px;
-    font-size: 40px;
-    
-}
-.content{
-    position: relative;
-    top: 25px;;
-    display:flex;
-    justify-content: center;
-    width:900px;
-    margin:auto;
-}
-
-.content div{
-    padding:80px;
-    
-}
-
-.content p{
-    padding:10px;
-    font-size: 20px;
-}
-.education > .content{
-    position: relative;
-    left:20px;
-}
-img{
-    height:150px;
-    
-}
-
-.education{
-   
-    height:650px;
-    text-align: center;
-    color:white;
-    background: black;
-    margin:auto;
-
-}
-.education > h2{
-    position: relative;
-    top:30px;
-    font-size: 40px;
-    
-}
-.education> #content{
-    position: relative;
-    right:200px;
-}
-
-
-
-.Skill > h2{
-    position: relative;
-    top:30px;
-    font-size: 40px;
-    
-}
-.Skill > ul{
-    padding:80px;
-   
-
-}
-
-.Skill{
-   
-    height:650px;
-    text-align: center;
-    color:rgb(75,75,75);
-    background:white;
-
-}
-.Skill > h2{
-    position: relative;
-    top:30px;
-    font-size: 40px;
-    
-}
-.Skill > ul{
-    padding:80px;
-   
-
-}
-.Reference{
-   
-    height:350px;
-    text-align: center;
-    color: rgb(75,75,75);
-    background:white;
-
-}
-.Reference > h2{
-    position: relative;
-    top:30px;
-    font-size: 40px;
-    
-}
-.Reference > ul{
-    padding:80px;
-   
-
-}
-
-
-<<<<<<< HEAD
-@media (max-width: 600px) {
-   main{
-       color: blue;
-   }
-=======
-@media only screen and (max-width: 500px) {
-   
->>>>>>> c6cfa9ac085eb0e45ca9df68de378aa6f455a23d
   }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header-content img {
+    border-radius: 50%;
+    height: 200px;
+  }
+  
+  .introduction {
+    margin: 50px auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .introduction p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .projects {
+    height: 500px;
+    text-align: center;
+    color: black;
+    background: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .project-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .project-item {
+    flex: 1;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-item img {
+    border-radius: 5px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #333;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .links:hover {
+    background-color: #555;
+  }
+  
+  .skills {
+    height: auto;
+    text-align: center;
+    color: rgb(75, 75, 75);
+    background: white;
+    padding: 50px 0;
+  }
+  
+  .skills ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  .skills li {
+    font-size: 18px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  
+  .education {
+    height: auto;
+    text-align: center;
+    color: white;
+    background: #333;
+    padding: 50px 0;
+  }
+  
+  .education-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .education-item {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .education-item img {
+    border-radius: 5px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .experience {
+    height: auto;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .experience-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .experience-item {
+    flex: 1;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-item img {
+    border-radius: 5px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .future-plans {
+    height: auto;
+    text-align: center;
+    color: rgb(75, 75, 75);
+    background: white;
+    padding: 50px 0;
+  }
+  
+  .future-plans ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  
